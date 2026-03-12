@@ -29,20 +29,6 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   `-- .gitkeep
 |   `-- preregistration/
 |       `-- .gitkeep
-|-- data/
-|   |-- analysis-notes/
-|   |   |-- .gitkeep
-|   |   `-- analysis_note_template.md
-|   |-- cleaned-data/
-|   |   `-- .gitkeep
-|   |-- data-analysis/
-|   |   `-- .gitkeep
-|   |-- final-analysis-data/
-|   |   `-- .gitkeep
-|   |-- osf-public-data/
-|   |   `-- .gitkeep
-|   `-- raw-data/
-|       `-- .gitkeep
 |-- literature/
 |-- logs/
 |   |-- .gitkeep
@@ -69,6 +55,10 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   |-- design/
 |   |   |-- materials/
 |   |   |-- data/
+|   |   |   |-- analysis-notes/
+|   |   |   |-- cleaned-data/
+|   |   |   |-- final-analysis-data/
+|   |   |   `-- raw-data/
 |   |   |-- analysis/
 |   |   `-- outputs/
 |   `-- study-02-experiment/
@@ -76,6 +66,10 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |       |-- design/
 |       |-- materials/
 |       |-- data/
+|       |   |-- analysis-notes/
+|       |   |-- cleaned-data/
+|       |   |-- final-analysis-data/
+|       |   `-- raw-data/
 |       |-- analysis/
 |       `-- outputs/
 |-- submission/
