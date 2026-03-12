@@ -37,6 +37,14 @@ Briefly state the core research question, why it matters, and what the current p
 - Control strategy:
 - Hypotheses / propositions:
 
+## Hypotheses
+
+| ID | Hypothesis | Analysis file | Result | Status |
+|----|-----------|---------------|--------|--------|
+| H1 | | | | Pending |
+| H2 | | | | Pending |
+| H3 | | | | Pending |
+
 ## Empirical Package
 
 - Study design:
