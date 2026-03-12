@@ -29,27 +29,3 @@
 - Update `MEASURES.md` when variables, measures, source citations, coding rules, aggregation rules, or sample/wave usage change.
 
   ——————
-
-## Project Information
-
-### Project Identity
-
-- Project status: choose one from idea / literature review / data collection / data cleaning / analysis / writing / submission / revise and resubmit / accepted / published
-- Last updated: 
-
-### Research Question
-
-- Primary research question:
-- Core theoretical lens:
-
-### Empirical Package
-
-- Sample(s):
-- Data source(s):
-- Main variables:
-
-### Collaborators
-
-| Name | Role | Institution | Email | ORCID | Google Scholar |
-|---|---|---|---|---|---|
-| Your name | PI / author | University | name@university.edu | 0000-0000-0000-0000 | https://scholar.google.com/ |
