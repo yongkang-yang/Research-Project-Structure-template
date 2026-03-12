@@ -15,9 +15,14 @@
 - If either `AGENTS.md` or `CLAUDE.md` is edited, run `python3 scripts/sync_ai_docs.py` immediately.
 
 - Use these naming conventions unless the project explicitly defines a stricter one:
-  - non-trivial files: `YYYY-MM-DD_content-description_v01.ext`
-  - meeting notes: `YYYY-MM-DD_person-name.md`
-  - analysis notes: `YYYY-MM-DD_analysis-description_v01.md`
+  - Analysis scripts: `YYYY-MM-DD_study{N}_{analysis-type}_v{NN}.{ext}`
+    - Example: `2026-03-11_study2_mediation-analysis_v01.R`
+  - Draft files: `YYYY-MM-DD_{journal-name}_draft_v{NN}.{ext}`
+    - Example: `2026-03-11_JCR_draft_v03.docx`
+  - Meeting notes: `YYYY-MM-DD_meeting_{attendee-initials}.{ext}`
+    - Example: `2026-03-11_meeting_YY-TL-GT.md`
+  - Log files: `YYYY-MM-DD.{ext}`
+    - Example: `2026-03-11.md`
   
 - Update `PROJECT_REPORT.md` when important literature, theory structure, conceptual model, hypotheses, empirical package, analysis method, project stage, or next steps change.
 

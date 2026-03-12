@@ -25,7 +25,9 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   `-- .gitkeep
 |   |-- irb/
 |   |   `-- .gitkeep
-|   `-- other/
+|   |-- other/
+|   |   `-- .gitkeep
+|   `-- preregistration/
 |       `-- .gitkeep
 |-- data/
 |   |-- analysis-notes/
@@ -42,6 +44,9 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   `-- raw-data/
 |       `-- .gitkeep
 |-- literature/
+|-- logs/
+|   |-- .gitkeep
+|   `-- daily_log_template.md
 |-- meetings/
 |   |-- .gitkeep
 |   `-- meeting_template.md
@@ -55,16 +60,40 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   `-- workshops/
 |       `-- .gitkeep
 |-- scripts/
+|   |-- check_project_health.py
 |   |-- sync_ai_docs.py
 |   `-- update_readme_structure.py
+|-- studies/
+|   |-- study-01-field/
+|   |   |-- README.md
+|   |   |-- design/
+|   |   |-- materials/
+|   |   |-- data/
+|   |   |-- analysis/
+|   |   `-- outputs/
+|   `-- study-02-experiment/
+|       |-- README.md
+|       |-- design/
+|       |-- materials/
+|       |-- data/
+|       |-- analysis/
+|       `-- outputs/
 |-- submission/
-|   |-- journal-placeholder/
-|   |   `-- r1-revise-resubmit/
-|   `-- shared-templates/
-|       |-- cover-letter-template.md
-|       |-- response-letter-template.md
-|       |-- submission-guideline-JAP.md
-|       `-- title-page-template.md
+|   |-- journal-specific/
+|   |   `-- [journal-name]/
+|   |       |-- guidelines.md
+|   |       |-- format-template/
+|   |       `-- checklist.md
+|   |-- revision-rounds/
+|   |   |-- r1/
+|   |   |-- r2/
+|   |   `-- r3/
+|   |-- shared-templates/
+|   |   |-- cover-letter-template.md
+|   |   |-- response-letter-template.md
+|   |   |-- submission-guideline-JAP.md
+|   |   `-- title-page-template.md
+|   `-- SUBMISSION_LOG.md
 `-- writing/
     |-- drafts/
     |   `-- .gitkeep
