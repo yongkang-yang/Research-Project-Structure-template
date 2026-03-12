@@ -21,8 +21,8 @@
     - Example: `2026-03-11_JCR_draft_v03.docx`
   - Meeting notes: `YYYY-MM-DD_meeting_{attendee-initials}.{ext}`
     - Example: `2026-03-11_meeting_YY-TL-GT.md`
-  - Log files: `YYYY-MM-DD_{description}.{ext}`
-    - Example: `2026-03-11_daily-log.md`
+  - Log files: `YYYY-MM-DD.{ext}`
+    - Example: `2026-03-11.md`
   
 - Update `PROJECT_REPORT.md` when important literature, theory structure, conceptual model, hypotheses, empirical package, analysis method, project stage, or next steps change.
 

@@ -39,7 +39,7 @@ NAMING_PATTERNS = {
     "analysis": r"^\d{4}-\d{2}-\d{2}_study\d+_.+_v\d+\.\w+$",
     "draft": r"^\d{4}-\d{2}-\d{2}_.+_draft_v\d+\.\w+$",
     "meeting": r"^\d{4}-\d{2}-\d{2}_meeting_.*\.md$",
-    "log": r"^\d{4}-\d{2}-\d{2}_.*\.md$",
+    "log": r"^\d{4}-\d{2}-\d{2}\.md$",
 }
 
 
