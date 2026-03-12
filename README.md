@@ -10,6 +10,19 @@ This repository is a reusable skeleton for empirical research projects. `README.
 - `MEASURES.md`: variable and measure registry, with sources and operationalization notes.
 - `README.md`: repository structure reference and naming guide.
 
+## Directory Purposes
+
+- `compliance/`: IRB, consent, preregistration, DMP, and related governance materials.
+- `literature/`: literature review source files, summaries, and reading notes.
+- `logs/`: dated project logs and the daily log template.
+- `meetings/`: meeting notes and the meeting template.
+- `presentation/`: conference, workshop, PDW, and internal presentation assets.
+- `scripts/`: helper scripts for maintaining AI docs and repository structure.
+- `studies/`: study-level packages for active empirical work.
+- `studies/archive/`: archived pilots, dropped studies, and mixed legacy materials.
+- `submission/`: submission logs, journal-specific requirements, revision rounds, and reusable submission templates.
+- `writing/`: manuscript drafts and reusable writing templates.
+
 ## Directory Tree
 
 This block is the only auto-generated section in `README.md`.
