@@ -3,10 +3,7 @@
 ## Project Snapshot
 
 - Project title:
-- Short name:
-- Lead researcher:
-- Coauthors:
-- Current stage:
+- Current stage:  choose one from idea / literature review / data collection / data cleaning / analysis / writing / submission / revise and resubmit / accepted / published
 - Target journal(s) or outlet(s):
 - Last updated:
 
@@ -23,19 +20,6 @@ Briefly state the core research question, why it matters, and what the current p
 ## Theory Structure
 
 - Core theory:
-- Key constructs:
-- Proposed mechanism:
-- Boundary condition(s):
-- Alternative explanations:
-
-## Conceptual Model
-
-- Main independent variable(s):
-- Main dependent variable(s):
-- Mediator(s):
-- Moderator(s):
-- Control strategy:
-- Hypotheses / propositions:
 
 ## Hypotheses
 
@@ -47,16 +31,14 @@ Briefly state the core research question, why it matters, and what the current p
 
 ## Empirical Package
 
-- Study design:
 - Sample(s):
 - Data source(s):
-- Key dependent variable(s):
-- Key independent variable(s):
-- Key moderator(s) / mediator(s):
-- Main identification or empirical strategy:
+- Main variables:
 
 
-- Immediate next action:
-- Next collaborator follow-up:
-- Next writing milestone:
-- Next submission milestone:
+### Collaborators
+
+| Name | Role | Institution | Email | ORCID | Google Scholar |
+|---|---|---|---|---|---|
+| Your name | PI / author | University | name@university.edu | 0000-0000-0000-0000 | https://scholar.google.com/ |
+
