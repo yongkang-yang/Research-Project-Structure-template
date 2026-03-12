@@ -1,0 +1,22 @@
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.dat
+*.json
+*.xml
+
+# PDF files
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
