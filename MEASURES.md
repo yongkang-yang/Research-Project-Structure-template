@@ -4,20 +4,22 @@ Use this file as the canonical registry for all constructs, instruments, and ope
 
 ## Summary
 
-- Last updated:
-- Version note:
-- Owner:
+- Last updated: [to be filled]
+- Version note: [to be filled]
+- Owner: [to be filled]
 
 ## Detailed Measure Entries
 
-### 1. Construct Name
+### 1. [to be filled]
 
-- Original scale item:
-- Source:
-- Explanation:
+- Original scale item: [to be filled]
+- Source: [to be filled]
+- Explanation: [to be filled]
 
-### 2. Construct Name
+### 2. [to be filled]
 
-- Original scale item:
-- Source:
-- Explanation:
+- Original scale item: [to be filled]
+- Source: [to be filled]
+- Explanation: [to be filled]
+
+(Add more entries as needed)

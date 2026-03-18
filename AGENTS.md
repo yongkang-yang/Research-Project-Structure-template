@@ -26,6 +26,11 @@
   - Log files: `YYYY-MM-DD.{ext}`
     - Example: `2026-03-11.md`
   
-- Update `PROJECT_REPORT.md` when important literature, theory structure, conceptual model, hypotheses, empirical package, analysis method, project stage, or next steps change.
+- Update `PROJECT_REPORT.md` when important literature, theory structure, conceptual model, hypotheses, empirical package, analysis method, project stage, or next steps change. Only update content within the existing placeholder items `[to be filled]`; do not add or remove any sections.
 
 - Update `MEASURES.md` when variables, measures, source citations, coding rules, aggregation rules, or sample/wave usage change.
+
+## Custom Rules
+
+Do not modify the rules above. Add all new project-specific rules below this line.
+
