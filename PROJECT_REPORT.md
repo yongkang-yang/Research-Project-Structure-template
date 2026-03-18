@@ -7,6 +7,10 @@
 - Target journal(s) or outlet(s):
 - Last updated:
 
+## GitHub Repository
+
+https://github.com/yongkang-yang/[project name]
+
 ## Research Question And Objective
 
 Briefly state the core research question, why it matters, and what the current project is trying to deliver.

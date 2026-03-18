@@ -63,6 +63,8 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |-- sync_ai_docs.py
 |   `-- update_readme_structure.py
 |-- studies/
+|   |-- archive/
+|   |   `-- README.md
 |   |-- study-01-field/
 |   |   |-- README.md
 |   |   |-- design/
