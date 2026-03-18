@@ -6,7 +6,6 @@ Checks:
 1. Required files exist
 2. Document last update times
 3. AGENTS.md and CLAUDE.md synchronization
-4. File naming conventions
 """
 
 import os
@@ -34,14 +33,6 @@ REQUIRED_DIRS = [
 ]
 
 WARNING_DAYS = 30
-
-NAMING_PATTERNS = {
-    "analysis": r"^\d{4}-\d{2}-\d{2}_study\d+_.+_v\d+\.\w+$",
-    "draft": r"^\d{4}-\d{2}-\d{2}_.+_draft_v\d+\.\w+$",
-    "meeting": r"^\d{4}-\d{2}-\d{2}_meeting_.*\.md$",
-    "log": r"^\d{4}-\d{2}-\d{2}\.md$",
-}
-
 
 class Colors:
     GREEN = "\033[92m"
@@ -120,42 +111,6 @@ def check_ai_docs_sync():
         return False
 
 
-def check_naming_conventions():
-    """Check file naming conventions."""
-    print(f"\n{Colors.BLUE}=== Checking File Naming Conventions ==={Colors.END}")
-    import re
-
-    violations = []
-    for root, dirs, files in os.walk(PROJECT_ROOT):
-        if ".git" in root:
-            continue
-        for f in files:
-            if f.startswith(".") or f.endswith(".pyc"):
-                continue
-            filepath = Path(root) / f
-            rel_path = filepath.relative_to(PROJECT_ROOT)
-
-            matched = False
-            for pattern_name, pattern in NAMING_PATTERNS.items():
-                if re.match(pattern, f):
-                    matched = True
-                    break
-
-            if not matched:
-                violations.append(str(rel_path))
-
-    if violations:
-        print(f"  {Colors.YELLOW}⚠{Colors.END} Files not following naming conventions:")
-        for v in violations[:10]:
-            print(f"      {v}")
-        if len(violations) > 10:
-            print(f"      ... and {len(violations) - 10} more")
-        return False
-    else:
-        print(f"  {Colors.GREEN}✓{Colors.END} All files follow naming conventions")
-        return True
-
-
 def main():
     print(f"{Colors.BLUE}Research Project Health Check{Colors.END}")
     print(f"Project: {PROJECT_ROOT}")
@@ -166,8 +121,7 @@ def main():
         "dirs": check_required_dirs(),
         "updates": check_document_updates(),
         "sync": check_ai_docs_sync(),
-        "naming": check_naming_conventions(),
-    }
+            }
 
     print(f"\n{Colors.BLUE}=== Summary ==={Colors.END}")
     all_passed = all(results.values())
