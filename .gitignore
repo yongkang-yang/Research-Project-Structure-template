@@ -1,24 +1,24 @@
 # ====================================================================
 # Research Data (Raw/Derived) - 忽略大型数据文件
 # ====================================================================
-*.csv              # 通用表格数据 (Excel/SPSS/R)
-*.tsv              # 制表符分隔数据
-*.xlsx             # 现代 Excel
-*.xls              # 旧版 Excel
-*.sav              # SPSS 数据
-*.zsav             # SPSS 压缩数据
-*.por              # SPSS 交换文件
-*.dta              # Stata 数据
-*.dat              # 通用数据容器 (Mplus/SPSS)
-*.parquet          # Columnar 数据 (Py/R)
-*.feather          # Arrow/Feather 数据
-*.h5               # HDF5 容器
-*.hdf5             # HDF5 容器变体
+*.csv             
+*.tsv              
+*.xlsx            
+*.xls              
+*.sav          
+*.zsav            
+*.por             
+*.dta              
+*.dat              
+*.parquet          
+*.feather       
+*.h5              
+*.hdf5             
 
 # 结构化文本数据 (注意：如果项目包含小型 JSON/XML 配置文件，请在下方添加例外)
 *.jsonl
 *.xml
-# !config.json     # 如果有必须上传的配置文件，取消此行注释
+!config.json     
 
 # R 序列化对象
 *.rds
@@ -28,13 +28,9 @@
 # Python 序列化对象
 *.pkl
 
-# 保留空目录占位符
-!.gitkeep
 
-# ====================================================================
 # Non-diffable / Binary Documents & Media - 忽略二进制文档与多媒体
-# ====================================================================
-# 文档
+
 *.pdf
 *.doc
 *.docx
@@ -101,7 +97,7 @@ venv/
 
 # R
 .Rhistory
-.RData             # 根目录下的自动保存镜像
+.RData            
 .Rproj.user/
 
 # IDE / Editors
@@ -125,7 +121,7 @@ desktop.ini
 *.odtmp
 *.odopen
 *.odsync
-*[Cc]onflicted\ [Cc]opy* # 处理带空格的冲突副本
+*[Cc]onflicted\ [Cc]opy* 
 
 # ====================================================================
 # Research Software Specific - 忽略特定科研软件生成的中间件
@@ -139,8 +135,8 @@ desktop.ini
 *.chk
 
 # UCINET (转义 # 符号防止被 Git 误认为注释)
-*.\#\#h
-*.\#\#d
+*.##h
+*.##d
 
 # Reference Managers & Backups
 *.wbk
