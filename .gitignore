@@ -1,13 +1,3 @@
-# Data files
-*.csv
-*.xlsx
-*.xls
-*.sav
-*.dta
-*.dat
-*.json
-*.xml
-
 # PDF files
 *.pdf
 
