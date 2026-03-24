@@ -1,22 +1,163 @@
-# Data files
+# =========================
+# Research data (raw/derived)
+# =========================
 *.csv
+*.tsv
 *.xlsx
 *.xls
 *.sav
 *.dta
 *.dat
 *.json
+*.jsonl
 *.xml
+*.parquet
+*.feather
+*.rds
+*.rdata
+*.RData
+*.pkl
+*.h5
+*.hdf5
 
-# PDF files
+# Keep directory placeholders if present
+!.gitkeep
+
+# =========================
+# Non-diffable / binary documents and media
+# =========================
+*.doc
 *.pdf
+*.docx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
 
-# OS files
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svgz
+*.ico
+
+# Audio / video
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.webm
+
+# Archives / packaged binaries
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Executables / compiled artifacts
+*.exe
+*.dll
+*.dylib
+*.bin
+*.class
+*.jar
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# =========================
+# R
+# =========================
+.Rhistory
+.RData
+.Rproj.user/
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS / system files
+# =========================
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Python
-__pycache__/
-*.pyc
-.env
-.venv/
+# =========================
+# OneDrive temporary / sync artifacts
+# =========================
+~$*
+*.tmp
+*.temp
+*.onetmp
+*.odtmp
+*.odopen
+*.odsync
+*conflicted copy*
+
+# =========================
+# Research software generated artifacts
+# (SPSS / Mplus / UCINET / Office reference managers)
+# =========================
+# SPSS data/output binaries
+*.zsav
+*.por
+*.spv
+*.spo
+
+# Mplus generated binaries/checkpoints
+*.gh5
+*.chk
+
+# UCINET binary dataset pairs (text sources like .dl can still be versioned)
+*.##h
+*.##d
+
+# Office / reference-manager lock and backup artifacts
+*.wbk
+*.bak
+*.enl~
+*.laccdb
+
+# =========================
+# Build / cache artifacts
+# =========================
+dist/
+build/
+.cache/
