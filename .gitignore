@@ -17,8 +17,7 @@
 
 # 结构化文本数据 (注意：如果项目包含小型 JSON/XML 配置文件，请在下方添加例外)
 *.jsonl
-*.xml
-!config.json     
+*.xml   
 
 # R 序列化对象
 *.rds
