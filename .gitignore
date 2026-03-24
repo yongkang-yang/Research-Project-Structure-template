@@ -99,6 +99,18 @@ venv/
 .RData            
 .Rproj.user/
 
+# SPSS Amos
+*.amw
+*.amp
+*.amo
+*.amd
+*.ami
+*.amj
+*.AmosOutput
+*.AmosBasic
+*.AmosP
+*.AmosRecode
+
 # IDE / Editors
 .vscode/
 .idea/
