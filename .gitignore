@@ -133,10 +133,6 @@ desktop.ini
 *.gh5
 *.chk
 
-# UCINET (转义 # 符号防止被 Git 误认为注释)
-*.##h
-*.##d
-
 # Reference Managers & Backups
 *.wbk
 *.bak
