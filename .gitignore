@@ -1,23 +1,31 @@
 # ====================================================================
 # Research Data (Raw/Derived) - 忽略大型数据文件
 # ====================================================================
-*.csv             
-*.tsv              
-*.xlsx            
-*.xls              
-*.sav          
-*.zsav            
-*.por             
-*.dta              
-*.dat              
-*.parquet          
-*.feather       
-*.h5              
-*.hdf5             
+*.csv
+*.tsv
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+*.xltx
+*.xltm
+*.xlt
+*.xlam
+*.xla
+*.xlw
+*.xlm
+*.sav
+*.zsav
+*.por
+*.dta
+*.parquet
+*.feather
+*.h5
+*.hdf5
 
 # 结构化文本数据 (注意：如果项目包含小型 JSON/XML 配置文件，请在下方添加例外)
 *.jsonl
-*.xml   
+*.xml
 
 # R 序列化对象
 *.rds
@@ -33,8 +41,19 @@
 *.pdf
 *.doc
 *.docx
+*.docm
+*.dot
+*.dotx
+*.dotm
 *.ppt
 *.pptx
+*.pptm
+*.pot
+*.potx
+*.potm
+*.pps
+*.ppsx
+*.ppsm
 *.odt
 *.ods
 *.odp
@@ -96,20 +115,8 @@ venv/
 
 # R
 .Rhistory
-.RData            
+.RData
 .Rproj.user/
-
-# SPSS Amos
-*.amw
-*.amp
-*.amo
-*.amd
-*.ami
-*.amj
-*.AmosOutput
-*.AmosBasic
-*.AmosP
-*.AmosRecode
 
 # IDE / Editors
 .vscode/
@@ -132,7 +139,7 @@ desktop.ini
 *.odtmp
 *.odopen
 *.odsync
-*[Cc]onflicted\ [Cc]opy* 
+*[Cc]onflicted\ [Cc]opy*
 
 # ====================================================================
 # Research Software Specific - 忽略特定科研软件生成的中间件
@@ -140,6 +147,18 @@ desktop.ini
 # SPSS Output
 *.spv
 *.spo
+
+# SPSS Amos
+*.amw
+*.amp
+*.amo
+*.amd
+*.ami
+*.amj
+*.AmosOutput
+*.AmosBasic
+*.AmosP
+*.AmosRecode
 
 # Mplus
 *.gh5
