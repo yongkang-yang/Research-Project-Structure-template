@@ -29,6 +29,7 @@
 - Update `PROJECT_REPORT.md` when important literature, theory structure, conceptual model, hypotheses, empirical package, analysis method, project stage, or next steps change. Only update content within the existing placeholder items `[to be filled]`; do not add or remove any sections.
 
 - Update `MEASURES.md` when variables, measures, source citations, coding rules, aggregation rules, or sample/wave usage change.
+- update `Logs` when the conversation is complete. 
 
 ## Custom Rules
 
