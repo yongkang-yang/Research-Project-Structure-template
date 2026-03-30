@@ -6,7 +6,7 @@
   - `README.md`
   - `PROJECT_REPORT.md`
   - `MEASURES.md`
-  - the two most recent meeting notes in `meetings/`
+  - the two most recent notes in `meetings/` and `logs`
 
 - Each time this file is loaded at the start of a session, run `python3 scripts/update_readme_structure.py` before relying on the folder structure documented in `README.md`.
 
