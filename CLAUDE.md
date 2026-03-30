@@ -6,7 +6,7 @@
   - `README.md`
   - `PROJECT_REPORT.md`
   - `MEASURES.md`
-  - the two most recent meeting notes in `meetings/`
+  - the two most recent notes in `logs`
 
 - Each time this file is loaded at the start of a session, run `python3 scripts/update_readme_structure.py` before relying on the folder structure documented in `README.md`.
 
@@ -29,8 +29,12 @@
 - Update `PROJECT_REPORT.md` when important literature, theory structure, conceptual model, hypotheses, empirical package, analysis method, project stage, or next steps change. Only update content within the existing placeholder items `[to be filled]`; do not add or remove any sections.
 
 - Update `MEASURES.md` when variables, measures, source citations, coding rules, aggregation rules, or sample/wave usage change.
+- update `Logs` when the conversation is complete. 
 
 ## Custom Rules
 
 Do not modify the rules above. Add all new project-specific rules below this line.
 
+## Custom Rules
+
+Do not modify the rules above. Add all new project-specific rules below this line.
