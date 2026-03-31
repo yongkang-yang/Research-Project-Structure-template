@@ -14,8 +14,6 @@
 
 - If either `AGENTS.md` or `CLAUDE.md` is edited, run `python3 scripts/sync_ai_docs.py` immediately.
 
-- When processing `.docx` files, convert to markdown. Name the `.md` file as `{original-docx-name}_yyyy-mm-dd.md`. Restructure the markdown so each line contains exactly one sentence. After conversion, verify the content by comparing the source and converted file, and clean up formulas and tables to ensure proper formatting.
-
 - Use these naming conventions unless the project explicitly defines a stricter one:
   - Analysis scripts: `YYYY-MM-DD_study{N}_{analysis-type}_v{NN}.{ext}`
     - Example: `2026-03-11_study2_mediation-analysis_v01.R`
