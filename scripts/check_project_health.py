@@ -21,12 +21,16 @@ REQUIRED_FILES = [
     "PROJECT_REPORT.md",
     "MEASURES.md",
     "README.md",
+    "literature/LITERATURE_REVIEW.md",
 ]
 
 REQUIRED_DIRS = [
-    "data",
     "scripts",
     "compliance",
+    "literature",
+    "logs",
+    "meetings",
+    "studies",
     "submission",
     "writing",
     "presentation",
@@ -73,7 +77,14 @@ def check_required_dirs():
 def check_document_updates():
     """Check if documents have been updated recently."""
     print(f"\n{Colors.BLUE}=== Checking Document Update Times ==={Colors.END}")
-    docs = ["PROJECT_REPORT.md", "MEASURES.md", "AGENTS.md", "CLAUDE.md", "README.md"]
+    docs = [
+        "PROJECT_REPORT.md",
+        "MEASURES.md",
+        "README.md",
+        "literature/LITERATURE_REVIEW.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+    ]
     stale = []
     for doc in docs:
         filepath = PROJECT_ROOT / doc
