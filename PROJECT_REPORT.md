@@ -15,12 +15,13 @@
 Briefly state the core research question, why it matters, and what the current project is trying to deliver.
 [to be filled]
 
-## Important Literature
-| Citation | Why it matters | Relation to this project |
-|---|---|---|
-| Author, Year | Example reason | Example connection |
+## Literature Status
 
-[to be filled] (multiple rows allowed)
+- Primary literature file: [literature/LITERATURE_REVIEW.md](literature/LITERATURE_REVIEW.md)
+- Current theoretical anchor papers: [to be filled]
+- Literature review stage: choose one from search / screening / synthesis / drafting / stable
+- What changed in the literature since last update: [to be filled]
+- Literature decisions that affect this project right now: [to be filled]
 
 ## Theory Structure
 

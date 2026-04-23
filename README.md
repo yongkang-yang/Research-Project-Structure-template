@@ -6,14 +6,14 @@ This repository is a reusable skeleton for empirical research projects. `README.
 
 - `AGENTS.md`: AI-facing project brief and operating rules for tools that read `AGENTS.md`.
 - `CLAUDE.md`: mirrored AI-facing project brief and operating rules for tools that read `CLAUDE.md`.
-- `PROJECT_REPORT.md`: research-progress summary covering theory, model, empirical package, and current status.
+- `PROJECT_REPORT.md`: research-progress summary covering project status, active theory decisions, empirical package, and current status.
 - `MEASURES.md`: variable and measure registry, with sources and operationalization notes.
 - `README.md`: repository structure reference and naming guide.
 
 ## Directory Purposes
 
 - `compliance/`: IRB, consent, preregistration, DMP, and related governance materials.
-- `literature/`: literature review source files, summaries, and reading notes.
+- `literature/`: literature review source files, synthesis documents, and reading notes. Keep the main literature synthesis in `literature/LITERATURE_REVIEW.md`.
 - `logs/`: dated project logs and the daily log template.
 - `meetings/`: meeting notes and the meeting template.
 - `presentation/`: conference, workshop, PDW, and internal presentation assets.
@@ -22,6 +22,12 @@ This repository is a reusable skeleton for empirical research projects. `README.
 - `studies/archive/`: archived pilots, dropped studies, and mixed legacy materials.
 - `submission/`: submission logs, journal-specific requirements, revision rounds, and reusable submission templates.
 - `writing/`: manuscript drafts and reusable writing templates.
+
+## Working Rules
+
+- Keep `PROJECT_REPORT.md` lean. It should summarize only the literature decisions that currently affect theory, hypotheses, design, or next steps.
+- Put detailed literature extraction, synthesis, contradictions, and reading queues in `literature/LITERATURE_REVIEW.md`.
+- If literature notes become paper-specific and long, create files under `literature/notes/` and keep `literature/LITERATURE_REVIEW.md` as the synthesis layer.
 
 ## Directory Tree
 
@@ -38,13 +44,11 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   `-- .gitkeep
 |   |-- irb/
 |   |   `-- .gitkeep
-|   |-- other/
-|   |   `-- .gitkeep
-|   `-- preregistration/
+|   `-- other/
 |       `-- .gitkeep
 |-- literature/
+|   `-- LITERATURE_REVIEW.md
 |-- logs/
-|   |-- .gitkeep
 |   `-- daily_log_template.md
 |-- meetings/
 |   |-- .gitkeep
@@ -66,47 +70,25 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |-- archive/
 |   |   `-- README.md
 |   |-- study-01-field/
-|   |   |-- README.md
-|   |   |-- design/
-|   |   |-- materials/
 |   |   |-- data/
-|   |   |   |-- analysis-notes/
-|   |   |   |-- cleaned-data/
-|   |   |   |-- final-analysis-data/
-|   |   |   `-- raw-data/
-|   |   |-- analysis/
-|   |   `-- outputs/
+|   |   `-- README.md
 |   `-- study-02-experiment/
-|       |-- README.md
-|       |-- design/
-|       |-- materials/
 |       |-- data/
-|       |   |-- analysis-notes/
-|       |   |-- cleaned-data/
-|       |   |-- final-analysis-data/
-|       |   `-- raw-data/
-|       |-- analysis/
-|       `-- outputs/
+|       `-- README.md
 |-- submission/
-|   |-- journal-specific/
-|   |   `-- [journal-name]/
-|   |       |-- guidelines.md
-|   |       |-- format-template/
-|   |       `-- checklist.md
-|   |-- revision-rounds/
-|   |   |-- r1/
-|   |   |-- r2/
-|   |   `-- r3/
+|   |-- journal-placeholder/
+|   |   `-- r1-revise-resubmit/
 |   |-- shared-templates/
 |   |   |-- cover-letter-template.md
 |   |   |-- response-letter-template.md
 |   |   |-- submission-guideline-JAP.md
 |   |   `-- title-page-template.md
 |   `-- SUBMISSION_LOG.md
-`-- writing/
-    |-- drafts/
-    |   `-- .gitkeep
-    `-- templates/
-        `-- .gitkeep
+|-- writing/
+|   |-- drafts/
+|   |   `-- .gitkeep
+|   `-- templates/
+|       `-- .gitkeep
+`-- Migration Playbook.md
 ```
 <!-- END DIRECTORY TREE -->
