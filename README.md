@@ -17,7 +17,7 @@ This repository is a reusable skeleton for empirical research projects. `README.
 - `logs/`: dated project logs and the daily log template.
 - `meetings/`: meeting notes and the meeting template.
 - `presentation/`: conference, workshop, PDW, and internal presentation assets.
-- `scripts/`: helper scripts for maintaining AI docs and repository structure.
+- `scripts/`: helper scripts for project health checks and repository-structure maintenance.
 - `studies/`: study-level packages for active empirical work.
 - `studies/archive/`: archived pilots, dropped studies, and mixed legacy materials.
 - `submission/`: submission logs, journal-specific requirements, revision rounds, and reusable submission templates.
@@ -49,6 +49,7 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |-- literature/
 |   `-- LITERATURE_REVIEW.md
 |-- logs/
+|   |-- 2026-04-29.md
 |   `-- daily_log_template.md
 |-- meetings/
 |   |-- .gitkeep
@@ -64,7 +65,6 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |       `-- .gitkeep
 |-- scripts/
 |   |-- check_project_health.py
-|   |-- sync_ai_docs.py
 |   `-- update_readme_structure.py
 |-- studies/
 |   |-- archive/

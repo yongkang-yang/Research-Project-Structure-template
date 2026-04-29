@@ -5,7 +5,7 @@ Project Health Check Script
 Checks:
 1. Required files exist
 2. Document last update times
-3. AGENTS.md and CLAUDE.md synchronization
+3. CLAUDE.md symlink to AGENTS.md
 """
 
 import os
@@ -102,8 +102,8 @@ def check_document_updates():
 
 
 def check_ai_docs_sync():
-    """Check if AGENTS.md and CLAUDE.md are synchronized."""
-    print(f"\n{Colors.BLUE}=== Checking AI Docs Synchronization ==={Colors.END}")
+    """Check whether CLAUDE.md is a symlink to AGENTS.md."""
+    print(f"\n{Colors.BLUE}=== Checking AI Docs Linkage ==={Colors.END}")
     agents = PROJECT_ROOT / "AGENTS.md"
     claude = PROJECT_ROOT / "CLAUDE.md"
 
@@ -111,15 +111,16 @@ def check_ai_docs_sync():
         print(f"  {Colors.RED}✗{Colors.END} One or both files missing")
         return False
 
-    agents_content = agents.read_text()
-    claude_content = claude.read_text()
-
-    if agents_content == claude_content:
-        print(f"  {Colors.GREEN}✓{Colors.END} AGENTS.md and CLAUDE.md are synchronized")
-        return True
-    else:
-        print(f"  {Colors.RED}✗{Colors.END} AGENTS.md and CLAUDE.md are OUT OF SYNC")
+    if not claude.is_symlink():
+        print(f"  {Colors.RED}✗{Colors.END} CLAUDE.md is not a symbolic link")
         return False
+
+    if claude.resolve() != agents.resolve():
+        print(f"  {Colors.RED}✗{Colors.END} CLAUDE.md does not point to AGENTS.md")
+        return False
+
+    print(f"  {Colors.GREEN}✓{Colors.END} CLAUDE.md -> AGENTS.md")
+    return True
 
 
 def main():
