@@ -5,7 +5,7 @@ This repository is a reusable skeleton for empirical research projects. `README.
 ## Required Root Files
 
 - `AGENTS.md`: AI-facing project brief and operating rules for tools that read `AGENTS.md`.
-- `CLAUDE.md`: mirrored AI-facing project brief and operating rules for tools that read `CLAUDE.md`.
+- `CLAUDE.md`: symbolic link to `AGENTS.md` for tools that read `CLAUDE.md`.
 - `PROJECT_REPORT.md`: research-progress summary covering project status, active theory decisions, empirical package, and current status.
 - `MEASURES.md`: variable and measure registry, with sources and operationalization notes.
 - `README.md`: repository structure reference and naming guide.

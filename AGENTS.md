@@ -10,9 +10,9 @@
 
 - Each time this file is loaded at the start of a session, run `python3 scripts/update_readme_structure.py` before relying on the folder structure documented in `README.md`.
 
-- Keep `AGENTS.md` and `CLAUDE.md` identical at all times.
+- Use `AGENTS.md` as the single source of truth for AI guidance documents.
 
-- If either `AGENTS.md` or `CLAUDE.md` is edited, run `python3 scripts/sync_ai_docs.py` immediately.
+- `CLAUDE.md` must be a symbolic link to `AGENTS.md` (create/update with `ln -sf AGENTS.md CLAUDE.md`).
 
 - Use these naming conventions unless the project explicitly defines a stricter one:
   - Analysis scripts: `YYYY-MM-DD_study{N}_{analysis-type}_v{NN}.{ext}`
