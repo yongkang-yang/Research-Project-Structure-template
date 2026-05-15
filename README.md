@@ -41,10 +41,9 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |-- other/
 |   |   `-- .gitkeep
 |   `-- preregistration/
-|       `-- .gitkeep
 |-- literature/
+|   `-- literature review.md
 |-- logs/
-|   |-- .gitkeep
 |   `-- daily_log_template.md
 |-- meetings/
 |   |-- .gitkeep
@@ -66,33 +65,23 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |-- archive/
 |   |   `-- README.md
 |   |-- study-01-field/
-|   |   |-- README.md
+|   |   |-- analysis/
+|   |   |-- data/
 |   |   |-- design/
 |   |   |-- materials/
-|   |   |-- data/
-|   |   |   |-- analysis-notes/
-|   |   |   |-- cleaned-data/
-|   |   |   |-- final-analysis-data/
-|   |   |   `-- raw-data/
-|   |   |-- analysis/
-|   |   `-- outputs/
+|   |   |-- outputs/
+|   |   `-- README.md
 |   `-- study-02-experiment/
-|       |-- README.md
+|       |-- analysis/
+|       |-- data/
 |       |-- design/
 |       |-- materials/
-|       |-- data/
-|       |   |-- analysis-notes/
-|       |   |-- cleaned-data/
-|       |   |-- final-analysis-data/
-|       |   `-- raw-data/
-|       |-- analysis/
-|       `-- outputs/
+|       |-- outputs/
+|       `-- README.md
 |-- submission/
+|   |-- journal-placeholder/
+|   |   `-- r1-revise-resubmit/
 |   |-- journal-specific/
-|   |   `-- [journal-name]/
-|   |       |-- guidelines.md
-|   |       |-- format-template/
-|   |       `-- checklist.md
 |   |-- revision-rounds/
 |   |   |-- r1/
 |   |   |-- r2/
@@ -103,10 +92,11 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   |-- submission-guideline-JAP.md
 |   |   `-- title-page-template.md
 |   `-- SUBMISSION_LOG.md
-`-- writing/
-    |-- drafts/
-    |   `-- .gitkeep
-    `-- templates/
-        `-- .gitkeep
+|-- writing/
+|   |-- drafts/
+|   |   `-- .gitkeep
+|   `-- templates/
+|       `-- .gitkeep
+`-- Migration Playbook.md
 ```
 <!-- END DIRECTORY TREE -->
