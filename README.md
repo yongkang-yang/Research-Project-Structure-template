@@ -96,10 +96,7 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   |-- APA 7th cover letter template.md
 |   |   |-- APA 7th manuscript template.md
 |   |   |-- APA 7th title page template.md
-|   |   |-- cover-letter-template.md
-|   |   |-- response-letter-template.md
-|   |   |-- submission-guideline-JAP.md
-|   |   `-- title-page-template.md
+|   |   `-- submission-guideline-JAP.md
 |   `-- SUBMISSION_LOG.md
 |-- writing/
 |   |-- drafts/
