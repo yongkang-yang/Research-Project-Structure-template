@@ -44,12 +44,12 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   `-- .gitkeep
 |   |-- irb/
 |   |   `-- .gitkeep
-|   `-- other/
-|       `-- .gitkeep
+|   |-- other/
+|   |   `-- .gitkeep
+|   `-- preregistration/
 |-- literature/
 |   `-- LITERATURE_REVIEW.md
 |-- logs/
-|   |-- 2026-04-29.md
 |   `-- daily_log_template.md
 |-- meetings/
 |   |-- .gitkeep
@@ -70,15 +70,32 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |-- archive/
 |   |   `-- README.md
 |   |-- study-01-field/
+|   |   |-- analysis/
 |   |   |-- data/
+|   |   |-- design/
+|   |   |-- materials/
+|   |   |-- outputs/
 |   |   `-- README.md
 |   `-- study-02-experiment/
+|       |-- analysis/
 |       |-- data/
+|       |-- design/
+|       |-- materials/
+|       |-- outputs/
 |       `-- README.md
 |-- submission/
 |   |-- journal-placeholder/
 |   |   `-- r1-revise-resubmit/
+|   |-- journal-specific/
+|   |-- revision-rounds/
+|   |   |-- r1/
+|   |   |-- r2/
+|   |   `-- r3/
 |   |-- shared-templates/
+|   |   |-- AOM manuscript template.md
+|   |   |-- APA 7th cover letter template.md
+|   |   |-- APA 7th manuscript template.md
+|   |   |-- APA 7th title page template.md
 |   |   |-- cover-letter-template.md
 |   |   |-- response-letter-template.md
 |   |   |-- submission-guideline-JAP.md
