@@ -84,8 +84,6 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |       |-- outputs/
 |       `-- README.md
 |-- submission/
-|   |-- journal-placeholder/
-|   |   `-- r1-revise-resubmit/
 |   |-- journal-specific/
 |   |-- revision-rounds/
 |   |   |-- r1/
@@ -95,8 +93,7 @@ Its update position is fixed between the `BEGIN DIRECTORY TREE` and `END DIRECTO
 |   |   |-- AOM manuscript template.md
 |   |   |-- APA 7th cover letter template.md
 |   |   |-- APA 7th manuscript template.md
-|   |   |-- APA 7th title page template.md
-|   |   `-- submission-guideline-JAP.md
+|   |   `-- APA 7th title page template.md
 |   `-- SUBMISSION_LOG.md
 |-- writing/
 |   |-- drafts/
